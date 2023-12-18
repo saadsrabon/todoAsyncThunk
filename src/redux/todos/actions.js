@@ -8,12 +8,13 @@ import {
     TOGGLED,
 } from "./actionTypes";
 
+
 export const loaded = (todos) => {
-    return {
+    return{
         type: LOADED,
         payload: todos,
-    };
-};
+    }
+}
 
 export const added = (todoText) => {
     return {
